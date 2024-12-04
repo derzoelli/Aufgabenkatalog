@@ -115,10 +115,10 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
   - Prüfen Sie ob sie die Datei im neuen Verzeichnis finden können
   - Prüfen Sie ob die Datei im ursprungs Verzeichnis noch vorhanden ist
 
-- **Aufgabe 3.4**
+- **Aufgabe 3.4:**
 
   - Erstellen Sie das neue Verzeichnis `script`und wechseln Sie in das erstellte Verzeichnis 
-  - Erstellen sie die Datei script.sh innerhalb des Verzeichnisses und füllen Sie sie mit folgendem Inhalt: 
+  - Erstellen sie die Datei `script.sh` innerhalb des Verzeichnisses und füllen Sie sie mit folgendem Inhalt: 
 
     ```bash
     #!/bin/bash
@@ -127,6 +127,12 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
 
   - Nutzen Sie den Befehl `chmod +x script.sh`um das Script ausführbar zu machen
   - Führen Sie das Script über den folgenden Befehl aus `./script.sh`
+
+- **Aufgabe 3.5:** 
+
+  - Erstellen Sie ein neues Verzeichnis im ihrem Benutzerverzeichnis 
+  - Nutzen den Befehl `tar` um das Verzeichnis in ein Archiv zu packen
+  - Nutzen Sie den Befehl erneut um das Archiv wieder zu entpacken 
 
 
 #### 
@@ -208,7 +214,7 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
 
 - Überprüfen Sie, ob das Programm entfernt wurde, indem Sie versuchen, es zu starten.
 
-### Aufgabe 5.2: Installieren eines Pakets
+**Aufgabe 5.2:** Installieren eines Pakets
 
 - Installieren Sie das Paket `htop`erneut
 
@@ -218,7 +224,7 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
 
 - Starten Sie das Programm:`htop`
 
-### Aufgabe 5.5: Informationen zu einem Paket abrufen
+**Aufgabe 5.3:** Informationen zu einem Paket abrufen
 
 - Finden Sie Informationen über das Paket `curl`:
 
@@ -230,6 +236,7 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
     - Welche Version ist verfügbar?
     - Welche Abhängigkeiten hat das Paket?
 
+- **Aufgabe 5.4:** Nutzen Sie den befehl `apt list`um sich alle installierten Pakete anzeigen zu lassen. Hinweis: Der Befehl muss um eine Flag ergänzt werden
 
 
 
@@ -243,6 +250,10 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
 
 **Aufgaben:**
 
+- Aufgabe 6.1:
+
+  - Lassen sie sich die aktuell laufenden Prozesse mit dem Befehl `ps` anzeigen
+  - Lassen sie sich die aktuell laufenden Prozesse mit dem Befehl `top` anzeigen
 
 
 
@@ -390,6 +401,20 @@ Bitte führen Sie die Befehle nur dann mit Admin Rechten aus (`sudo`), wenn Sie 
 
 
 # Bonusaufgaben:
+
+Aufgabe 1: Kommandozeilen Spiele 
+
+Hilfe: https://itsfoss.com/best-command-line-games-linux/
+
+- Installieren Sie einige Kommandozeilen Spielen und testen Sie sie
+
+Aufgabe 2: Wordpress Installation 
+
+Hilfe: https://www.digitalocean.com/community/tutorials/install-wordpress-on-ubuntu
+
+
+
+
 
 
 
