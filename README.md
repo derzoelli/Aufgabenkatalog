@@ -413,7 +413,3 @@ Aufgabe 2: Wordpress Installation
 Hilfe: https://www.digitalocean.com/community/tutorials/install-wordpress-on-ubuntu
 
 
-
-
-
-This is a test
